@@ -39,11 +39,11 @@ Thymeleaf sits on top of existing HTML, so we write HTML like normal and just ad
 
 #### Thymeleaf "Dialect" Basics
 
-\${...} : Variable expressions.
-\*{...} : Selection expressions.
-#{...} : Message (i18n) expressions.
-@{...} : Link (URL) expressions.
-~{...} : Fragment expressions.
+- \${...} : Variable expressions.
+- \*{...} : Selection expressions.
+- #{...} : Message (i18n) expressions.
+- @{...} : Link (URL) expressions.
+- ~{...} : Fragment expressions.
 
 ### Repository
 
