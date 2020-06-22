@@ -33,3 +33,18 @@ Where does it come from?
 - @CreationTimestamp - sets the value of the field to the current time and date during creation (exactly once)
 
 ### Thymeleaf
+
+Thymeleaf a server-side Java templating engine for both web and standalone JAR apps.
+Thymeleaf sits on top of existing HTML, so we write HTML like normal and just add a few things to make it a Thymeleaf template.
+
+#### Thymeleaf "Dialect" Basics
+
+\${...} : Variable expressions.
+\*{...} : Selection expressions.
+#{...} : Message (i18n) expressions.
+@{...} : Link (URL) expressions.
+~{...} : Fragment expressions.
+
+### Repository
+
+A repository is neccessary in Spring applications. It aids us in adding data to our database. It extends the built-in CrudRepository.
